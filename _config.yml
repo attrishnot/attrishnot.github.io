@@ -1,0 +1,13 @@
+# Site settings, accessed via {{ site.property }}.
+title: "Attrishnot"
+email: "blog@attrishnot.net"
+url: "https://www.attrishnot.net"
+permalink: "/posts/:year/:month/:day/:title"
+description: >- # ignore newlines until the next property
+  “It’s a war of attrition. And I don’t attrish.” — Stuart A. White
+
+# Build settings
+theme: "minima"
+plugins:
+  - "jekyll-feed"
+  - "jekyll-target-blank"
